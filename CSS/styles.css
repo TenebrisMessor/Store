@@ -51,4 +51,36 @@ h2{
 h3{
     font-size: 2.4rem;
 }
-
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header_logo{
+    margin: 3rem 0;
+}
+.footer{
+    background-color: var(--Rojo);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer_texto{
+    font-family: var(--FuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
+.navegacion{
+ background-color: var(--Azul);
+ padding: 1rem 0;
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+}
+.navegacion_enlace{
+    font-family: var(--FuentePrincipal);
+    color: var(--Blanco);
+    font-size: 3rem;
+}
+.navegacion_enlace-activo,
+.navegacion_enlace:hover{
+    color: var(--Morado);
+}
